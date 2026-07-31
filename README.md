@@ -12,6 +12,8 @@ You provide ideas, AI will automatically generate:
 
 
 
+![Vyravid screenshot](image.png)
+
 ## Quick Start
 
 First-time setup:
