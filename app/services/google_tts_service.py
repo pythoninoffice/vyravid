@@ -27,7 +27,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 # Configuration
-GOOGLE_GEMINI_API_KEY = os.getenv('GOOGLE_GEMINI_API_KEY')
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 DEFAULT_MODEL = "gemini-2.5-flash-preview-tts"  # Fast, good quality
 PRO_MODEL = "gemini-2.5-pro-preview-tts"  # Higher quality, slower
 MAX_CHUNK_SIZE = 2500  # Maximum characters per chunk for long text
@@ -102,10 +102,10 @@ class GoogleTTSService:
     def __init__(self, api_key: str = None, model: str = DEFAULT_MODEL):
         """Initialize Google TTS service"""
         if not api_key:
-            api_key = GOOGLE_GEMINI_API_KEY
+            api_key = GOOGLE_API_KEY
 
         if not api_key:
-            raise GoogleTTSError("Please set GOOGLE_GEMINI_API_KEY environment variable")
+            raise GoogleTTSError("Please set GOOGLE_API_KEY environment variable")
 
         self.api_key = api_key
         self.model = model

@@ -1187,7 +1187,7 @@ async def generate_animal_haircut_prompts(
             haircut_style,
         )
 
-        google_api_key = os.getenv("GOOGLE_GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        google_api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY")
         if not google_api_key:
             raise HTTPException(status_code=500, detail="Google Gemini API key is not configured")
 

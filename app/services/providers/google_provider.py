@@ -27,7 +27,7 @@ class GoogleProvider:
 
     def __init__(self):
         """Initialize Google provider"""
-        self.google_api_key = os.getenv("GOOGLE_GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        self.google_api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GOOGLE_API_KEY")
         self.client = None
         self._initialize_client()
         self.supported_models = [
@@ -57,7 +57,7 @@ class GoogleProvider:
         """Initialize Google Gemini client"""
         try:
             if not self.google_api_key:
-                logger.warning("GOOGLE_GEMINI_API_KEY/GOOGLE_API_KEY not found. Google provider will not be available.")
+                logger.warning("GOOGLE_API_KEY/GOOGLE_API_KEY not found. Google provider will not be available.")
                 return
 
             self.client = self._with_google_genai_api(

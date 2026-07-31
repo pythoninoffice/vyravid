@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     # Transcription APIs
     deepgram_api_key: str = ""
     assemblyai_api_key: str = Field(default="", alias="ASSEMBLYAI_API_KEY")
-    gemini_api_key: str = Field(default="", alias="GOOGLE_GEMINI_API_KEY")
+    gemini_api_key: str = Field(default="", alias="GOOGLE_API_KEY")
     
     # Processing limits
     max_file_size_mb: int = 1000  # 1GB default

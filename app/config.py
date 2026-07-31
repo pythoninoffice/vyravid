@@ -76,7 +76,7 @@ class Settings(BaseSettings):
     replicate_api_key: str = Field(default="", env="REPLICATE_API_KEY")
     replicate_poll_interval_seconds: float = Field(default=2.0, env="REPLICATE_POLL_INTERVAL")
     google_api_key: str = Field(default="", env="GOOGLE_API_KEY")
-    google_gemini_api_key: str = Field(default="", env="GOOGLE_GEMINI_API_KEY")
+    GOOGLE_API_KEY: str = Field(default="", env="GOOGLE_API_KEY")
     google_vertex_api_key: str = Field(default="", env="GOOGLE_VERTEX_API_KEY")
     google_genai_use_vertexai: bool = Field(default=False, env="GOOGLE_GENAI_USE_VERTEXAI")
     anthropic_api_key: str = Field(default="", env="ANTHROPIC_API_KEY")

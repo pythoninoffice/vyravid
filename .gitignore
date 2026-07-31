@@ -26,8 +26,7 @@ data/thumbnails/
 # Env / secrets
 .env
 app/.env
-**/.env
-**/.env.*
+**/.env.production
 *.pem
 *.p12
 *.key
