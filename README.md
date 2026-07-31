@@ -13,7 +13,7 @@ You provide ideas, AI will automatically generate:
 
 
 ![Vyravid screenshot](image.png)
-<video src="final_video_5db975b6-af61-4630-8890-829f7a40b016_en.mp4" controls width="720"></video>
+[Watch demo video](final_video_5db975b6-af61-4630-8890-829f7a40b016_en.mp4)
 
 ## Quick Start
 
