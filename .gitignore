@@ -1,0 +1,45 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+.vite/
+
+# Local data
+data/
+data/db/*.sqlite3
+data/db/*.sqlite3-*
+data/storage/**
+!data/storage/.gitkeep
+data/temp/
+data/videos/
+data/audio/
+data/images/
+data/thumbnails/
+
+# Env / secrets
+.env
+app/.env
+**/.env
+**/.env.*
+*.pem
+*.p12
+*.key
+*.json.key
+*service-account*
+*-service-account*.json
+*service_account*.json
+app/even-sun-*.json
+app/thematic-scene-*.json
+
+# Logs / OS
+*.log
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,34 @@
+{
+  "niches": [
+    "physics",
+    "biology",
+    "chemistry",
+    "history",
+    "astronomy",
+    "mathematics",
+    "geology",
+    "psychology",
+    "economics",
+    "computer science",
+    "philosophy",
+    "geography",
+    "engineering",
+    "medicine",
+    "environmental science"
+  ],
+  "total_count": 3,
+  "fps": 30,
+  "svg_duration": 10,
+  "local_output": "./output",
+  "post_to": [],
+  "dry_run": false,
+
+  "end_image": "",
+  "end_image_duration": 3,
+  "overlay_image": "",
+  "overlay_position": "10:main_h-overlay_h-10",
+  "overlay_start": 0,
+  "overlay_end": null,
+  "music_track": "",
+  "music_volume": 0.3
+}
