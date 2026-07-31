@@ -1,6 +1,6 @@
 # Vyravid
 
-All-in-one AI-assisted video generator. Create entire videos, no switching between tools, no other video editing software needed 
+All-in-one AI-assisted video generator. Create entire videos, no switching between tools, no other video editing software needed.
 
 You provide ideas, AI will automatically generate:
 - script
@@ -16,6 +16,8 @@ You provide ideas, AI will automatically generate:
 
 ## Quick Start
 
+You can give this repo link to your AI agent and it will figure out how to set up and what API keys are needed.
+
 First-time setup:
 
 ```bash
@@ -23,7 +25,7 @@ cp .env.example .env
 ```
 
 Edit `.env` and add the provider keys you plan to use. The app runs locally, but
-AI generation features need their corresponding API keys.
+AI generation features need their corresponding API keys. Bring your own keys.
 
 From the repo root:
 
